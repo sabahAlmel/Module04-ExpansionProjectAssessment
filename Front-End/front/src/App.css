@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --main-bg-clr: #090909;
+  --main-text-color: #fff;
+  --red-text-clr: #dc0000;
+  --red-btn-clr: #dc0000;
+  --btn-hover-clr: #fa2a2a;
+  --footer-clr: #610000;
+  --black-text-clr: #090909;
+  --card-bg-clr: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--main-bg-clr);
+  color: var(--main-text-color);
+  font-size: 1rem;
+}
+h1 {
+  font-weight: 600;
+}
+h2 {
+  font-weight: 500;
+  font-size: 3em;
+}
+h3 {
+  font-weight: 400;
+}
+h4 {
+  font-weight: 300;
+}
+h5 {
+  font-weight: 20000;
+}
+.App {
+  padding: 20px;
+}
+.homeWrapper,
+.servicesWrapper,
+.portfolioWrapper,
+.aboutUsWrapper,
+.contactUsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 90%;
+  margin: 4rem auto;
+}
+@media (max-width: 1130px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
